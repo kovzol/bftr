@@ -34,3 +34,5 @@ create table game (
  end timestamp,
  paused boolean,
  pause_request int references groupkind(id));
+
+-- Warning: this is incomplete!
